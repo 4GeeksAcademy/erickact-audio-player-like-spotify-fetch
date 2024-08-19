@@ -5,6 +5,7 @@ import Player from "./Player";
 //create your first component
 const App = () => {
 	const [songs, setSongs] = useState([])
+	
 	const [selectedSong, setSelectedSong] = useState(null)
 
 	const getSongs =()=> {
